@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+ 
+h1{
+    color: rgb(81, 3, 3);
+    margin-bottom: 25px;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+body {
+    height: 100vh; /*para ocupar toda a tela*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nova-tarefa-container {
+    background-image: url("https://images.pexels.com/photos/15313982/pexels-photo-15313982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    padding: 30px;
+}
+
+.nova-tarefa-input {
+    border: 2px solid #fff;
+    padding: 16px;
+    border-radius: 5px;
+    color: rgb(81, 3, 3);
+    
+}
+
+.nova-tarefa-botao {
+    border: 2px solid #fff;
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(81, 3, 3);
+}
+
+.tarefas-container {
+    color: rgb(81, 3, 3);
+    font-size: 20px;
+    margin-top: 8px;
+    background-color: #fff;
+    padding: 10px;
+}
